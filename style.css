@@ -94,7 +94,7 @@ h1,h2,h3,h4{
   color: var(--ink);
   letter-spacing:-0.01em;
 }
-h1{ font-size:clamp(2.6rem, 6vw, 4.6rem); font-weight:500; }
+h1{ font-size:clamp(2rem, 6vw, 4rem); font-weight:300; }
 h2{ font-size:clamp(2rem, 4.2vw, 3rem); }
 h3{ font-size:clamp(1.3rem, 2.4vw, 1.6rem); }
 p{ color:#334b58; }
@@ -709,7 +709,7 @@ MOBILE NAVBAR
 }
 
 .hero-eyebrow::before{ content:""; width:34px; height:2px; background:var(--arc); }
-.hero h1{ color:var(--white); max-width:300px; opacity:0; animation:riseIn 1s var(--ease) .5s forwards; }
+.hero h1{ color:var(--white); max-width:200px; opacity:0; animation:riseIn 1s var(--ease) .5s forwards; }
 .hero h1 em{ font-style:italic; color:var(--dusk); }
 .hero-sub{ max-width:380px; color:rgba(255,255,255,0.82); margin-top:1.1rem; font-size:1.05rem; opacity:0; animation:riseIn 1s var(--ease) .7s forwards; }
 .hero-actions{ display:flex; gap:1rem; margin-top:2.3rem; flex-wrap:wrap; opacity:0; animation:riseIn 1s var(--ease) .9s forwards; }
